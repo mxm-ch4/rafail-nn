@@ -50,7 +50,7 @@ export function NeonDitherHero({
     <header
       ref={ref}
       id="hero"
-      className="relative flex h-svh min-h-[600px] w-full flex-col justify-end overflow-hidden bg-ink"
+      className="relative flex h-svh min-h-[660px] w-full flex-col justify-end overflow-hidden bg-ink"
     >
       {/* neon-dither shader background */}
       <div className="absolute inset-0 z-0">

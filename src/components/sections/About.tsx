@@ -27,20 +27,33 @@ export function About() {
             </Reveal>
             <Reveal delay={0.08}>
               <h2 className="mt-7 mb-7 text-[clamp(34px,8.5vw,45px)] font-light leading-[1.12]">
-                Продаю квартиры.
+                Продаём квартиры.
                 <br />
-                Без лишних слов.
+                Результат — не обещания.
               </h2>
             </Reveal>
             <Reveal delay={0.16}>
               <p className="max-w-[560px] text-base font-normal leading-[1.7] text-white/55">
-                Специализируюсь на вторичном рынке района Новая&nbsp;Кузнечиха. Работаю
-                в команде агентства{' '}
-                <b className="font-semibold text-white">Про_Счастье</b> — более
-                14&nbsp;рекламных площадок, юридическое сопровождение и гарантия
-                по сделке 3&nbsp;года. Комиссия закладывается в цену — вы не платите из
-                кармана.
+                Специализируюсь на вторичном рынке Нижнего&nbsp;Новгорода, в частности
+                районе Новая&nbsp;Кузнечиха. Работаю в команде агентства{' '}
+                <b className="font-semibold text-white">Про_Счастье</b> — с полным
+                юридическим сопровождением и гарантией по сделке 3&nbsp;года от
+                юридического лица.
               </p>
+            </Reveal>
+            <Reveal delay={0.24}>
+              <div className="mt-7 flex flex-wrap gap-3">
+                {['🛡️ Гарантия 3 года', '⚖️ Юридическое сопровождение', '💰 Комиссия в цене объекта'].map(
+                  (badge) => (
+                    <span
+                      key={badge}
+                      className="rounded-[75px] border-[0.5px] border-white/20 px-5 py-2.5 text-[13px] text-white/70"
+                    >
+                      {badge}
+                    </span>
+                  ),
+                )}
+              </div>
             </Reveal>
           </div>
         </div>
